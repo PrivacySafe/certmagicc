@@ -159,7 +159,7 @@ CertMagi is designed for **resilience** and **verifiability**, while avoiding th
 
 ---
 
-## 📍 Scripts Coming With This Project
+## 📍 Scripts For This Project
 
 - `sign_pdf.py` — Signs PDFs with your GPG private key
 - `upload_to_ipfs.py` — Uploads files to IPFS and generates hash-linked metadata
