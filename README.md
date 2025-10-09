@@ -7,6 +7,8 @@
 
 We deliver **Magic Certificates** – documents and web pages stored on verified blockchain infrastructure. CertMagi.cc harnesses the power of IPFS, ENS, and the Tor Dark Web to ensure resistance to censorship, while still being **easy to update or remove** – something most blockchain solutions can't do.
 
+**NOTE:** This repository is a work in progress, and there are placeholder files in this repo. This code should **NOT** be used in production, and there is still a lot of work to be done for this concept to be implemented as described.
+
 ---
 
 ## 🔐 Core Features
@@ -169,13 +171,15 @@ CertMagi.cc is designed for **resilience** and **verifiability**, while avoiding
 - `generate_qr.py` — Creates GS1-compatible QR code for each cert
 - `verify_cert.py` — Verifies signature, file hash, and metadata
 
+**NOTE:** This repository is a work in progress, and there are placeholder files in this repo. This code should **NOT** be used in production, and there is still a lot of work to be done for this concept to be implemented as described.
+
 ---
 
 ## 📜 License
 
 ```text
 AGPLv3
-Copyright (C) 2025 Sean O'Brien and Ivy Cyber Education LLC
+Copyright (C) 2024-2025 Sean O'Brien and Ivy Cyber LLC
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
