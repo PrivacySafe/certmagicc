@@ -1,11 +1,11 @@
-# 🌟 CertMagi: Blockchain Magic For Your Business
+# 🌟 CertMagi.cc: Blockchain Magic For Your Business
 
-**Website:** [certmagi.com](https://certmagi.com)  
-**ENS Domain:** `certmagi.eth`  
+**Website:** [certmagi.cc](https://certmagi.cc)  
+**ENS Domain:** `certmagic.eth`  
 **Author:** Sean O'Brien, Ivy Cyber Education LLC  
 **License:** AGPLv3
 
-We deliver **Magic Certificates** – documents and web pages stored on verified blockchain infrastructure. CertMagi harnesses the power of IPFS, ENS, and the Tor Dark Web to ensure resistance to censorship, while still being **easy to update or remove** – something most blockchain solutions can't do.
+We deliver **Magic Certificates** – documents and web pages stored on verified blockchain infrastructure. CertMagi.cc harnesses the power of IPFS, ENS, and the Tor Dark Web to ensure resistance to censorship, while still being **easy to update or remove** – something most blockchain solutions can't do.
 
 ---
 
@@ -13,7 +13,7 @@ We deliver **Magic Certificates** – documents and web pages stored on verified
 
 - ✅ Signed PDFs with embedded GPG verification ([Public Key](https://keys.openpgp.org/vks/v1/by-fingerprint/2E12848899B2F463409B95A82C83959AD748331E))
 - ✅ Uploaded to IPFS
-- ✅ Linked through IPNS and ENS (`certmagi.eth`)
+- ✅ Linked through IPNS and ENS (`certmagic.eth`)
 - ✅ Auto-generated Tor `.onion` mirrors for redundancy and privacy
 - ✅ GS1-compatible QR codes
 - ✅ Short URL redirector (`certmagi.cc/sGsg1` → ENS/IPNS)
@@ -58,7 +58,7 @@ certmagi/
 - IPFS daemon
 - Tor
 - Docker (optional)
-- ENS configured for `certmagi.eth`
+- ENS configured for `certmagic.eth`
 - [GitHub CLI](https://cli.github.com/) (`gh`)
 - (Optional) Ethereum wallet + Infura for ENS automation
 
@@ -67,8 +67,8 @@ certmagi/
 ## 🚀 Quickstart
 
 ```bash
-git clone https://github.com/ivycyber/certmagi.git
-cd certmagi
+git clone https://github.com/ivycyber/certmagicc.git
+cd certmagicc
 
 # Sign the PDF
 python3 scripts/sign_pdf.py certs/cert123/cert123.pdf
@@ -86,7 +86,7 @@ sudo bash scripts/setup_onion_service.sh cert123
 python3 scripts/update_ipns.py certs/cert123/cert123.json
 
 # Create GitHub repo (optional)
-bash scripts/create_github_repo.sh certmagi
+bash scripts/create_github_repo.sh certmagicc
 
 # Verify
 python3 scripts/verify_cert.py cert123
@@ -137,7 +137,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("metadata", help="Path to JSON metadata file with IPFS hash")
     parser.add_argument("--key", default="self", help="IPNS key name (default is 'self')")
-    parser.add_argument("--ens", help="ENS name to update (e.g. certmagi.eth)")
+    parser.add_argument("--ens", help="ENS name to update (e.g. certmagic.eth)")
     parser.add_argument("--pk", help="Private key for ENS update (hex format)")
     args = parser.parse_args()
 
@@ -155,7 +155,7 @@ if __name__ == "__main__":
 
 ## 🧐 Philosophy
 
-CertMagi is designed for **resilience** and **verifiability**, while avoiding the rigid permanence of most blockchain-based document solutions. You can change or remove data via IPNS, yet retain full traceability and authenticity.
+CertMagi.cc is designed for **resilience** and **verifiability**, while avoiding the rigid permanence of most blockchain-based document solutions. You can change or remove data via IPNS, yet retain full traceability and authenticity.
 
 ---
 
