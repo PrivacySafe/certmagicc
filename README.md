@@ -2,7 +2,7 @@
 
 **Website:** [certmagi.cc](https://certmagi.cc)  
 **ENS Domain:** `certmagic.eth`  
-**Author:** Sean O'Brien, Ivy Cyber Education LLC  
+**Author:** Sean O'Brien, Ivy Cyber LLC  
 **License:** AGPLv3
 
 We deliver **Magic Certificates** – documents and web pages stored on verified blockchain infrastructure. CertMagi.cc harnesses the power of IPFS, ENS, and the Tor Dark Web to ensure resistance to censorship, while still being **easy to update or remove** – something most blockchain solutions can't do.
